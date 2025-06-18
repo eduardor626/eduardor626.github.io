@@ -5,7 +5,7 @@ categories: [Programming]
 tags: [introduction]
 description: Where I've landed and what I've learned
 image:
-  path: /assets/img/github_icon.png
+  path: assets/github_icon.png
   width: 800
   height: 800
   alt: My Github Icon Photo [credits to original]
