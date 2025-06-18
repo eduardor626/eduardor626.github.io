@@ -1,6 +1,6 @@
 ---
 title: The Journey Thus Far
-date: 2025-10-25 14:30:45 -0700
+date: 2025-6-05 14:30:45 -0700
 categories: [Programming]
 tags: [introduction]
 description: Where I've landed and what I've learned
