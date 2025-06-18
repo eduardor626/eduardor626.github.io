@@ -1,6 +1,6 @@
 ---
 title: Exploring `std::variant` 
-date: 2024-10-25 14:30:45 -0700
+date: 2025-10-25 14:30:45 -0700
 categories: [Programming]
 tags: [introduction]
 description: The use cases of the variant type 
