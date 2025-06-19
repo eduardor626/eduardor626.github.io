@@ -7,6 +7,7 @@ Gemfile.lock
 .jekyll-cache
 .jekyll-metadata
 _site
+_drafts
 
 # RubyGems
 *.gem
@@ -27,5 +28,3 @@ _sass/vendors
 assets/js/dist
 _random
 
-# Drafts
-_drafts/*
