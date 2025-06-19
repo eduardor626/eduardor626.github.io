@@ -8,11 +8,14 @@ image:
   width: 700
   height: 600
 ---
+![my-journy-cover (1)](https://github.com/user-attachments/assets/b67e4bc4-d6b5-4262-a24b-c2424a61e18c)
 
 
 A reflection on my career growth since my first software engineering role. 
 
 ## My Early Career
+
+
 
 My first professional software engineering position was at an industrial automation startup in 2021. It was fast paced, challenging, and most importantly very impactful in my development as an engineer.
 
