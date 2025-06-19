@@ -4,8 +4,8 @@ categories: [Programming]
 tags: [introduction]
 description: The Journey So Far
 image:
-  path: ../assets/2025/my-journey-cover.png
-  width: 600
+  path: assets/2025/my_journey.png
+  width: 700
   height: 600
   alt: My Github Icon Photo [credits to original]
 ---
