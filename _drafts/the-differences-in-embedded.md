@@ -25,4 +25,4 @@ This new year has been quite the journey for me. I've grown as an engineer over 
 
 ### HAL Generators, Thank Goodness!
 
-### Oh my! Where is my std::cout?? >,<
+### Oh my! Where is my debugger std::cout?? >,<
