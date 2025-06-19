@@ -12,6 +12,8 @@ image:
 
 
 ## Intro
+<img src="https://github.com/user-attachments/assets/00c64aa3-2663-49bf-b184-25e23358b7e5" alt="my-journy-cover" width="300" height="500">
+
 A reflection on my career growth since my first software engineering role. 
 
 ## My Early Career
