@@ -2,23 +2,19 @@
 date: 2025-06-18 14:30:45 -0700
 categories: [Programming]
 tags: [introduction]
-description: The Journey So Far
+description: Navigating Career Growth Through Layoffs and New Opportunities
 image:
-  path: assets/2025/my_journey.png
+  path: assets/2.png
   width: 700
   height: 600
-  alt: My Github Icon Photo [credits to original]
 ---
 
-
-## Intro
-<img src="https://github.com/user-attachments/assets/00c64aa3-2663-49bf-b184-25e23358b7e5" alt="my-journy-cover" width="300" height="500">
 
 A reflection on my career growth since my first software engineering role. 
 
 ## My Early Career
 
-My first professional software engineering position was at an industrial automation startup. It was my first "real" job as a software engineer and the place where I started my career.
+My first professional software engineering position was at an industrial automation startup in 2021. It was fast paced, challenging, and most importantly very impactful in my development as an engineer.
 
 ### Valuable Outcomes
 
@@ -26,7 +22,8 @@ My first professional software engineering position was at an industrial automat
 
   - Experienced higher level math and its use in the real world!
 
-- The project itself was exciting to work on. We were implementing point cloud processing algorithms on data being acquired by various sensors. I was able to develop C++ code for each part of the application pipeline (application, sensor integration, processing algorithms, gui, build system).
+- The project itself was exciting to work on. We were implementing point cloud processing algorithms on data being acquired by various sensors. This data was then used to automate industrial machinery.
+  - I  was able to develop C++ code for each part of the application pipeline (application, sensor integration, processing algorithms, gui, build system).
 
 - My knowledge of modern C++(14/17/20) grew substantially. Prior to this job I had no practice with any new features of the standard past C++11.
 
