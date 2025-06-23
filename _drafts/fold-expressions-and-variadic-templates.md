@@ -1,31 +1,31 @@
 
-## Simplifying Component Counts with Parameter Packs and Fold Expressions
+## The Problem: Manually Counting Compile Time Parameters
 
-TODO: DESCRIBE PROBLEM STATEMENT BETTER
+In a recent project, I needed a way to manage a growing number of software components consistently. These components were used to allocate threads for the runtime engine depending on their type.
 
-In a recent project, I needed a way to manage a growing number of software components consistently. These components were used to allocate threads for the runtime engine depending on their component type.
-
-Great, simple. We just calculate each component type at runtime and create a dynamically sized vector at runtime to store each component....
-
-But, this is an embedded project, we want to know the number of components at **compile time** as opposed to runtime because of limitations on using dynamic allocation at runtime, like this.
-
-```cpp
-Runtime<8,4,12> runtime_engine;
-// 8 = number of cooperative components
-// 4 = number of exclusive components
-// 12 = number of total components
-```
-
-These components were either labeled:
+These components were either allowed to be:
 
 - **exclusive** - belonging to a single exclusive thread
 - **cooperative** - belonging to a cooperative thread pool
 
-To do this, I created `Installers`. These `installers` are an abstraction for installing the components to the runtime engine.
+Great, simple. We just calculate each component type at runtime and create a dynamically sized container at runtime to store each component and its count..
+
+But, this is an embedded project, where we care about dynamic allocation and runtime overhead!
+
+ We wish to know the number of components at **compile time** as opposed to runtime like this:
+
+```cpp
+// 8 = number of cooperative components
+// 4 = number of exclusive components
+// 12 = number of total components
+Runtime<8,4,12> runtime_engine;
+```
+
+Since `runtime_engine` is a template parameter, the template parameters cannot be defined at runtime! (Prior to this update we were manually counting the components and hardcoding these values for the `runtime_engine`)
+
+To do this, I created an abstraction for installing these components to the runtime called `Installers`.
 
 TODO: DIAGRAM of installers , installing components for a specific tasks
-
-The internal runtime engine would be in charge of allocating components to threads according to the component types. However, we need to know this number of components at compile time since we try to reduce runtime overhead in embedded systems.
 
 ## The Solution: Template Metaprogramming to the Rescue
 
@@ -132,11 +132,11 @@ void install_components(IRuntimeEngine& runtime) {
 
 ### ✅ The Benefits
 
-**Compile-time validation:** All installer counts are determined statically, which allows for better sizing, validation, and compile-time asserts.
+- **Compile-time validation:** All installer counts are determined statically, which allows for better sizing, validation, and compile-time asserts.
 
-**No runtime overhead:** All calculations happen before your code runs.
+- **No runtime overhead:** All calculations happen before your code runs.
 
-**Clean and extensible:** Just add another installer type to the list and the counts are automatically updated.
+- **Clean and extensible:** Just add another installer type to the list and the counts are automatically updated.
 
 ### 💬 Final Thoughts
 
