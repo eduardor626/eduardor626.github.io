@@ -1,18 +1,19 @@
 ---
-date: 2025-06-18 14:30:45 -0700
+date: 2025-06-22 14:30:45 -0700
 categories: [Programming]
 tags: [introduction]
 description: A reflection on my career growth since my first software engineering job
 image:
-  path: assets/2.png
+  path: /assets/2.png
   width: 700
   height: 600
   alt: " role."
 ---
-<!-- ![Alt text](/assets/2025/my-journy-cover(1).png) -->
-
 
 ## My Early Career
+
+![Alt text](/assets/2025/a1.png)
+
 
 My first professional software engineering position was at an industrial automation startup in 2021. It was fast paced, challenging, and very impactful in my development as an engineer.
 
@@ -25,6 +26,7 @@ My first professional software engineering position was at an industrial automat
 - My knowledge of modern C++, build systems, and software architecture grew substantially here. Prior to this job, I had very basic knowledge of the features of the language, very little CMake experience, and had not built large enough programs to wrestle with complex software architectures yet.
 
 ### The Layoff 
+![Alt text](/assets/2025/a2.png)
 
 Early 2024 I was laid off due to an unstable economy and a company reorganization. Looking back, I took the layoff really well. I saw it as an opportunity to push and prove to myself that I could land another job.
 
@@ -40,6 +42,7 @@ And within a month, a few final interviews, I landed another job.
 
 
 ## The Start Of My Embedded Journey
+![Alt text](/assets/2025/a3.png)
 
 This time, I landed a more embedded-focused role, working on updating Board Support Packages and writing test applications for hardware drivers.
 
@@ -71,6 +74,7 @@ This proved to be one of the best decisions of my career.
 
 
 ## A Fresh Start
+![Alt text](/assets/2025/a5.png)
 
 At the start of 2025 I received the opportunity to work for a new company, much closer to home with a promising leader. I took on a new embedded software role working on measurement devices and process automation.
 
@@ -97,6 +101,9 @@ This is now my **third job since graduating**. I believe I have passed my self i
 
 
 ## Looking Ahead
+
+![Alt text](/assets/2025/a4.png)
+
 
 My career feels like its only starting off but I get excited thinking about how far I've come in the past 4 years. 
 
