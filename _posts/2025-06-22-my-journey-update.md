@@ -1,13 +1,12 @@
 ---
 date: 2025-06-22 14:30:45 -0700
-categories: [Programming]
+categories: [Programming,Career]
 tags: [introduction]
 description: A reflection on my career growth since my first software engineering job
 image:
-  path: /assets/2.png
+  path: /assets/2025/2.png
   width: 700
   height: 600
-  alt: " role."
 ---
 
 ## My Early Career
