@@ -8,7 +8,7 @@ These components were either allowed to be:
 - **exclusive** - belonging to a single exclusive thread
 - **cooperative** - belonging to a cooperative thread pool
 
-Great, simple. We just calculate each component type at runtime and create a dynamically sized container at runtime to store each component and its count..
+Simple, we can just calculate each component type at runtime and create a dynamically sized container to store each component and its count..
 
 But, this is an embedded project, where we care about dynamic allocation and runtime overhead!
 
@@ -35,9 +35,10 @@ Here’s a simplified version of what I implemented:
 
 ### 🧩 1. The Common Interface
 
-We define a base interface that every installer inherits from:
+We define a base interface that every Installer inherits from:
 
 ```cpp
+// Base class
 template <size_t CooperativeCount, size_t ExclusiveCount>
 class Installer {
 public:
@@ -46,15 +47,25 @@ public:
 
     virtual void create() = 0;
     virtual void configure() = 0;
-    virtual void register_to_application(IRuntimeEngine& rte) = 0;
+    virtual void register_to_app(IRuntimeEngine& rte) = 0;
 };
+
+// Derived Class
+size_t CooperativeComponentCount{2U};
+size_t ExclusiveComponentCount{1U};
+class MercedesInstaller : public Installer<CooperativeComponentCount, ExclusiveComponentCount>
+{
+  void create() override;
+  void configure() override;
+  void register_to_app(IRuntimeEngine& rte) override;
+}
 ```
 
-Each derived installer specifies how many cooperative and exclusive components it adds.
+Each derived installer specifies how many cooperative and exclusive components it has.
 
 ### 🧮 2. Aggregating Installer Counts
 
-Instead of manually adding up component counts, I used a fold expression to do it at compile time:
+Instead of manually adding up component counts, I define a struct that uses a fold expression to do it at compile time:
 
 ```cpp
 template <typename... Installers>
