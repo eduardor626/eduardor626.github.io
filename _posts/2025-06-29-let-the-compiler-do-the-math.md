@@ -4,7 +4,7 @@ categories: [Programming,Career,C++,Templates]
 tags: [templates]
 description: The power of variadic templates and fold expressions for counting at compile time
 image:
-  path: /assets/2025/b1.png
+  path: /assets/2025/june/b1.png
   width: 700
   height: 600
 ---
@@ -35,7 +35,7 @@ Due to the constraints of this embedded application, the thread manager must be 
 
 ## The Solution: Let the Compiler Do the Math
 
-![Alt text](/assets/2025/b1.png)
+![Alt text](/assets/2025/june/b1.png)
 
 The magic happens with *variadic templates*, *constexpr*, and *fold expressions*, which allow us to sum the **cooperative** and **exclusive** components at <u>compile time</u>! Letting the compiler do the counting for us! 
 
