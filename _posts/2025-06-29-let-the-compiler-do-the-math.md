@@ -1,6 +1,6 @@
 ---
 date: 2025-06-29 14:30:45 -0700
-categories: [Programming,Career,C++,Templates]
+categories: [Programming,C++,Templates]
 tags: [templates]
 description: The power of variadic templates and fold expressions for counting at compile time
 image:
