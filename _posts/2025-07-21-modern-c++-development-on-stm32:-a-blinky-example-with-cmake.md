@@ -205,7 +205,7 @@ private:
 };
 ```
 
-## App Entry Point 
+## The New App Entry Point 
 
 Now with the `LedBlinker` abstraction setup, we create the application header and implementation file.
 
@@ -280,7 +280,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 )
 ```
 
-## Building and Flashing the Project
+## Building The Application 🔨
 
 Open up the terminal in VSCode and build the project with the following CMake commands:
 
