@@ -250,7 +250,7 @@ The graphs below show this trade-off in action.
 **Trade-offs: Responsiveness vs. Stability**
 
 
-In practice, tuning EMA is always about finding the sweet spot between  **responsiveness** and  **stability** . The “right” averaging time depends on your application — whether you need a steady signal or a system that reacts quickly to change.
+In practice, tuning EMA is always about finding the sweet spot between  **responsiveness** and  **stability** . The “right” averaging time depends on your application — whether you need a system that reacts quickly to change or a steady signal.
 
 ### Conclusion: Two Tools In One 🛠️
 
@@ -261,7 +261,7 @@ The beauty of EMA is that it’s  **two tools in one**:
 1. A noise filter that stabilizes jittery signals.
 2. A responsiveness dial that controls how quickly your system adapts to change.
 
-By tuning the averaging time, you get to choose whether your system should prioritize *speed* or *stability*. For many real-world applications, choosing the right balance between those two is exactly what’s needed.
+By tuning the averaging time, you get to choose whether your system should prioritize *speed* or *stability*. For many real-world applications, choosing the right balance between the two is exactly what’s needed.
 
 If you’re experimenting with sensors in your own projects, play around with different averaging times and watch how the filter behaves — you’ll quickly see how powerful a few lines of code can be.
 
