@@ -156,7 +156,7 @@ This is a huge upgrade in performance and something we can now tell modern compi
 
 ## Auto-Vectorization: The Compiler Does It For You 👍🏻
 
-Modern compilers can automatically generate SIMD instructions from regular code when you enable optimization flags. To test this, we can open up [`godbolt.org`](http://godbolt.org) and write some code that essentially does some basic computation for us similar to what we’re doing above with the scalar example.
+Modern compilers can automatically generate SIMD instructions from regular code when you enable optimization flags. To test this, we can open up [godbolt](https://godbolt.org) and write some code that essentially does some basic computation for us similar to what we’re doing above with the scalar example.
 
 ```cpp
 #include <array>
@@ -265,7 +265,7 @@ main:
         ret
 ```
 
-Much better! This makes me see how truly valuable [`godbolt.org`](http://godbolt.org) is as a resource. To be able to see your compiled code in assembly and see what is going on underneath the hood with different optimization flags is eye opening. This resource would’ve been extremely beneficial for me in introductory programming classes!
+Much better! This makes me see how truly valuable [godbolt](https://godbolt.org) is as a resource. To be able to see your compiled code in assembly and see what is going on underneath the hood with different optimization flags is eye opening. This resource would’ve been extremely beneficial for me in introductory programming classes!
 
 However, it seems we can do even better than this by upping the optimization flag to `-O3` (most aggressive optimization) which enables the best possible performance.
 
