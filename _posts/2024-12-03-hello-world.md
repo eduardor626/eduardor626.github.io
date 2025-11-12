@@ -5,7 +5,7 @@ categories: [Programming]
 tags: [introduction]
 description: The start of my personal blog  😊
 image:
-  path: /assets/github_icon.png
+  path: /assets/2024/github_icon.png
 ---
 
 # Why The Blog? 🤔
