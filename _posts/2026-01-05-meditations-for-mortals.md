@@ -157,6 +157,6 @@ Relieving ourselves of this  need for control or a perfect scenario opens our li
 
 ### Conclusion
 
-*Meditations for Mortals* isn’t about doing more, it’s about loosening our need for full control and perfection. Accepting imperfection doesn’t mean passivity; it means choosing courageously, acting consistently, and forgiving yourself for being human. All while trying our best in the present moment that we have in this finite life.
+*Meditations for Mortals* isn’t about doing more, it’s about loosening our need for full control and perfection. Accepting imperfection doesn’t mean letting life pass us by, it means choosing wisely, acting consistently, trying our best, and forgiving ourselves for being human.
 
-Life unfolds moment by moment, each one asking how we’ll spend your finite attention. We’ll never achieve total control or emotional invulnerability, but meaning, action, and presence are always available, right now, if we choose them.
+Life unfolds moment by moment, each moment requiring us to figure out how we'll spend it. We’ll never achieve total control or invulnerability to problems, but the choices of action and presence are always available if we choose them.
