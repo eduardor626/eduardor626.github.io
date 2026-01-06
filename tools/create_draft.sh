@@ -24,6 +24,7 @@ FILENAME="${DATE}-${TITLE}.md"
 # Create file and write content
 cat <<EOF > "_drafts/$FILENAME"
 ---
+title: "TITLE"
 date: ${DATE} ${TIME} ${OFFSET}
 categories: [X, Y]
 tags: [x, y]
