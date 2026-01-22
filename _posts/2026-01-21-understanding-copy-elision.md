@@ -12,7 +12,7 @@ image:
 
 ## Introduction
 
-I recently came across a coding question on [getcracked.io](getcracked.io) that required understanding how objects are constructed, copied, moved, and passed into functions in C++. Working through the problem mentally was helpful, but I quickly realized that truly understanding object lifetime and invocation requires seeing what actually happens at runtime.
+I recently came across a coding question on [getcracked.io](https://getcracked.io) that required understanding how objects are constructed, copied, moved, and passed into functions in C++. Working through the problem mentally was helpful, but I quickly realized that truly understanding object lifetime and invocation requires seeing what actually happens at runtime.
 
 This post walks through the example, highlights a common misunderstanding that I experienced, and shows how tools like Jason Turner’s *constructor tracing* technique can reveal what C++ is really doing underneath the hood.
 
